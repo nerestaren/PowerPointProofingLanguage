@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI onLoad="Ribbon_Load" xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+    <ribbon>
+        <tabs>
+            <tab idMso="TabReview">
+                <group id="group1" label="Proofing language">
+                    <dropDown id="dropDown1" onAction="dropDown1_SelectionChanged" label="Language" showImage="false" />
+                    <button id="button1" imageMso="SetLanguage" onAction="button1_Click" label="Change it everywhere" />
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>
